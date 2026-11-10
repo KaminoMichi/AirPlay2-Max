@@ -1,0 +1,31 @@
+{
+  "pass": true,
+  "platform": "Ubuntu owned processes and files; no Android",
+  "cases": [
+    {
+      "case": "gone",
+      "exit": 0,
+      "pass": true
+    },
+    {
+      "case": "reused_start",
+      "exit": 0,
+      "pass": true
+    },
+    {
+      "case": "wrong_executable",
+      "exit": 69,
+      "pass": true
+    },
+    {
+      "case": "cooperative_stop",
+      "exit": 0,
+      "pass": true
+    },
+    {
+      "case": "live_no_signal",
+      "exit": 75,
+      "pass": true
+    }
+  ]
+}

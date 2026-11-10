@@ -1,0 +1,15 @@
+{
+  "pass": true,
+  "comparison": "Two independent output directories with fixed NDK/static archives",
+  "binaries_identical": {
+    "bin/ya-voice": "a2731c63c9cc8b425d98632f928116b6d061d06ebf803a31f7e9529bfe9db759",
+    "bin/ya-boot-state": "fb83d227304d378ebcdf4314152128c597f6e7c1fadb571d9c6e199e87f43c66",
+    "bin/ya-supervisor": "a89fd57f3995fa78af24c9c9d38ee6974a7732b190daed59e2f937d3d68e6234",
+    "bin/ya-remote": "908d90d55b26384e83ac352c9d7859c0969b0019aedf529ab70a894dba1ac0b7",
+    "bin/ya-publish": "74d54885ed257abed463f088ea410b0ce58b4faaa1b4d4cbfc210348764a3d25",
+    "bin/ya-shairport": "f7bce4a70f18151bf324de7f79d2f06f93481b3af881abd46c6f9273399db006",
+    "bin/ya-nqptp": "133bab9829cd84651f28e719fb8e64f99f3e1b249964ff99d72b237ea2230c45"
+  },
+  "signed_apk": "Preserved original signed APK, rebuilt DEX/manifest exact",
+  "volume_jar": "Preserved original working JAR, rebuilt DEX exact"
+}

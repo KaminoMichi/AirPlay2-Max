@@ -1,0 +1,6 @@
+{
+  "pass": true,
+  "relink_kit_sha256": "b951805b30d85b482e337d587f102437abc73db8a094a6a0b058d9d7a694dae8",
+  "relinked_receiver_sha256": "f7bce4a70f18151bf324de7f79d2f06f93481b3af881abd46c6f9273399db006",
+  "identical_to_release_receiver": true
+}

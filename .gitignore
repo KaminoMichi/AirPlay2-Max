@@ -1,0 +1,15 @@
+build/
+release/
+artifacts/
+.cache/
+__pycache__/
+*.pyc
+*.keystore
+*.jks
+*.p12
+*.key
+.env
+.DS_Store
+._*
+build-*/
+out/

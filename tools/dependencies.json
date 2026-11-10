@@ -1,0 +1,152 @@
+[
+  {
+    "name": "libgpg-error",
+    "version": "1.61",
+    "source": "libgpg-error",
+    "configure": [
+      "--host=aarch64-linux-android",
+      "--prefix=@PREFIX@",
+      "--disable-shared",
+      "--enable-static",
+      "--disable-nls",
+      "--enable-install-gpg-error-config"
+    ],
+    "env": {
+      "CFLAGS": "-O2 -fPIC"
+    }
+  },
+  {
+    "name": "libgcrypt",
+    "version": "1.12.4",
+    "source": "libgcrypt",
+    "configure": [
+      "--host=aarch64-linux-android",
+      "--prefix=@PREFIX@",
+      "--with-libgpg-error-prefix=@GPG@",
+      "--disable-shared",
+      "--enable-static",
+      "--disable-nls"
+    ],
+    "env": {
+      "CFLAGS": "-O2 -fPIC",
+      "LDFLAGS": "-L@GPG@/lib",
+      "CPPFLAGS": "-I@GPG@/include"
+    }
+  },
+  {
+    "name": "popt",
+    "version": "1.19",
+    "source": "popt",
+    "configure": [
+      "--host=aarch64-linux-android",
+      "--prefix=@PREFIX@",
+      "--disable-nls",
+      "--disable-shared",
+      "--enable-static"
+    ],
+    "env": {
+      "CFLAGS": "-O2 -fPIC"
+    }
+  },
+  {
+    "name": "libplist",
+    "version": "2.8.0",
+    "source": "libplist",
+    "upstream_commit": "fe3dc34dc3484006e12b403f7ceb06f0ad40b6f4",
+    "configure": [
+      "--host=aarch64-linux-android",
+      "--prefix=@PREFIX@",
+      "--disable-shared",
+      "--enable-static",
+      "--without-cython",
+      "--without-tools",
+      "--without-tests"
+    ],
+    "env": {
+      "CFLAGS": "-O2 -fPIC"
+    }
+  },
+  {
+    "name": "libconfig",
+    "version": "1.8.2",
+    "source": "libconfig",
+    "upstream_commit": "a42cb47c1526a4f2ed025fcbb2289863375bc898",
+    "configure": [
+      "--host=aarch64-linux-android",
+      "--prefix=@PREFIX@",
+      "--disable-shared",
+      "--enable-static",
+      "--disable-cxx",
+      "--disable-doc",
+      "--disable-examples",
+      "--disable-tests"
+    ],
+    "env": {
+      "CFLAGS": "-O2 -fPIC"
+    }
+  },
+  {
+    "name": "libsodium",
+    "version": "1.0.22",
+    "source": "libsodium",
+    "upstream_commit": "77e1ce5d6dee871c49ef211222ba18ef0c486bda",
+    "configure": [
+      "--host=aarch64-linux-android",
+      "--prefix=@PREFIX@",
+      "--disable-shared",
+      "--enable-static"
+    ],
+    "env": {
+      "CFLAGS": "-O2 -fPIC"
+    }
+  },
+  {
+    "name": "openssl",
+    "version": "3.5.9",
+    "source": "openssl",
+    "upstream_commit": "45e844fa2a14ec92d146bd8f5778ac130b6625fb",
+    "configure": [
+      "android-arm64",
+      "no-shared",
+      "no-tests",
+      "--prefix=@PREFIX@",
+      "--openssldir=@PREFIX@/ssl",
+      "-D__ANDROID_API__=28"
+    ]
+  },
+  {
+    "name": "ffmpeg",
+    "version": "7.1.5",
+    "source": "ffmpeg",
+    "upstream_commit": "3a0867c2bfda4a4d4309ca1a8cbdc6175e67f587",
+    "configure": [
+      "--prefix=@PREFIX@",
+      "--target-os=android",
+      "--arch=aarch64",
+      "--enable-cross-compile",
+      "--cc=@CC@",
+      "--cxx=@CXX@",
+      "--ar=@AR@",
+      "--ranlib=@RANLIB@",
+      "--nm=@NM@",
+      "--strip=@STRIP@",
+      "--enable-static",
+      "--disable-shared",
+      "--enable-pic",
+      "--disable-symver",
+      "--disable-programs",
+      "--disable-doc",
+      "--disable-debug",
+      "--disable-autodetect",
+      "--disable-everything",
+      "--disable-asm",
+      "--enable-small",
+      "--enable-decoder=aac,alac,pcm_s16le,pcm_s16be",
+      "--enable-parser=aac",
+      "--disable-avdevice",
+      "--disable-avfilter",
+      "--disable-swscale",
+      "--disable-network"
+    ]
+  }
+]

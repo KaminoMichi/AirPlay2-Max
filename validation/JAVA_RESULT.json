@@ -1,0 +1,50 @@
+{
+  "pass": true,
+  "nsd_apk_signature_preserved": true,
+  "rebuilt_nsd_dex_and_manifest_exact": true,
+  "rebuilt_volume_dex_exact_and_jar_preserved": true,
+  "runtime_tested": false,
+  "artifacts": {
+    "lib/volume-bridge.jar": "df0acdfd7f18ed412231a18b31442024aacac8f52f45b98096236ad7e1b98cde",
+    "lib/nsd.apk": "d620b87a066a5a9393c2e2d117c82c637ee80892746592ce5da90262f6018390"
+  },
+  "source_sha256": {
+    "android/nsd/AndroidManifest.xml": "a0cd96fa78fdbd87b03a160b8f5a0dedcee2830ba989ad23ca33e14aaac84ecf",
+    "android/volume/VolumeService.java": "53d33cd154ce83123333954834601990b6fbef3b8db79442f6e0f4e7895554d5",
+    "android/volume/AndroidSocketIo.java": "9f16e3049e0348444924677faf77eee22bdbad959265832e4c517a08752e2bde",
+    "android/volume/BinderAudio.java": "44aac70e4c21e6daca73b6c8e085521639854448ea01eb5ee1ebb5d3f701a87a",
+    "android/volume/VolumeProtocol.java": "0fb0b4780a77f89907006e920c662333415fe10d0196d1e89229d01cf606e100",
+    "android/nsd/ya/station/airplay/FramedChannel.java": "45cfd35c3759fb54006521ac254d7565532a41850bf35d7bc0f99956b0ddcab5",
+    "android/nsd/ya/station/airplay/AndroidSocketIo.java": "0df20ea5a35d26ced1bf9e49af7d306b07be03e1d8a9cf9aee378782ea6fb6b9",
+    "android/nsd/ya/station/airplay/BridgeProtocol.java": "7781740b3dbe0413a2a1ebaf4f1dd6344f3676135f936d0218a41778c4c00230",
+    "android/nsd/ya/station/airplay/AirplayNsdService.java": "6593ada1cf756b36a56c045de9a264701da00f383ae910d7ff75c0939749de4a",
+    "android/nsd/ya/station/airplay/BridgeSession.java": "4216a7972b94043c89a187d71347731b50ea4b47dbcd19ea37dd1a0a82385119",
+    "android/nsd/ya/station/airplay/NsdPublisher.java": "5b7bffb130f4c8b10a1a195e890838d3a779502f7e7bac65907cb8a7f55ca7b9"
+  },
+  "steps": [
+    {
+      "tool": "javac",
+      "exit": 0
+    },
+    {
+      "tool": "dx",
+      "exit": 0
+    },
+    {
+      "tool": "aapt",
+      "exit": 0
+    },
+    {
+      "tool": "apksigner",
+      "exit": 0
+    },
+    {
+      "tool": "javac",
+      "exit": 0
+    },
+    {
+      "tool": "dx",
+      "exit": 0
+    }
+  ]
+}

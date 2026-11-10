@@ -1,0 +1,545 @@
+{
+  "version": "0.1.0-rc.1",
+  "pass": true,
+  "android_api": 28,
+  "arch": "arm64-v8a",
+  "runtime_tested": false,
+  "binaries": {
+    "bin/ya-voice": "a2731c63c9cc8b425d98632f928116b6d061d06ebf803a31f7e9529bfe9db759",
+    "bin/ya-boot-state": "fb83d227304d378ebcdf4314152128c597f6e7c1fadb571d9c6e199e87f43c66",
+    "bin/ya-supervisor": "a89fd57f3995fa78af24c9c9d38ee6974a7732b190daed59e2f937d3d68e6234",
+    "bin/ya-remote": "908d90d55b26384e83ac352c9d7859c0969b0019aedf529ab70a894dba1ac0b7",
+    "bin/ya-publish": "74d54885ed257abed463f088ea410b0ce58b4faaa1b4d4cbfc210348764a3d25",
+    "bin/ya-shairport": "f7bce4a70f18151bf324de7f79d2f06f93481b3af881abd46c6f9273399db006",
+    "bin/ya-nqptp": "133bab9829cd84651f28e719fb8e64f99f3e1b249964ff99d72b237ea2230c45"
+  },
+  "source_sha256": {
+    "src/shairport/mdns_dns_sd.c": "75c44e5d6b2f83a4ed92a659a71850cb7bc39c334ee99e70889c6bd1f7269b73",
+    "src/shairport/loudness.c": "692b909342d42c2549274c2c7a85a4570d6c736b5a25baa519d299c4f923364c",
+    "src/shairport/audio_pa.c": "f7d5da90d357c68483ad62a5ba8f58ff1dca9110f556fd6ff36d6b6616dccd7c",
+    "src/shairport/rtp.h": "747d14f8e6ec8019f07e7ee25947a243c5bd2652f42a00a5b3816db9efffafab",
+    "src/shairport/Makefile.am": "8b3ff5dce3ad8a85a0c012437d1328f3aac635e1c0aef04476cff252018bc080",
+    "src/shairport/tinysvcmdns.h": "d4ea3c166de76798bf4c2aa6b8599ddfdeaabd576b1dc51bed8bc33c8156f077",
+    "src/shairport/apple_alac.h": "707e363368bbebad5f9955ae93eeda26a624b305217c0941b91e6f4d2cf63ffd",
+    "src/shairport/nqptp-shm-structures.h": "56aa36359755183c1e53b1401a507026b6d57f61477728825f8393b0877e4f9b",
+    "src/shairport/activity_monitor.c": "b72949060ad58baf8e389d501fb8283616928bf8535188861a415e4966b0562f",
+    "src/shairport/audio_pw.c": "9ae2730dc9c7a308cd7005679134a3022658028d29c2b04695895b1fe5bc7824",
+    "src/shairport/alac.h": "519ddd8d8f3e7bf275e770ea62ebe3754d29f583aaf8ae3d856f679aab758ffd",
+    "src/shairport/rtp.c": "eebf77a581447ddb0b9c63521707b3acc022aefd1e57ddecf94bee08e51d146a",
+    "src/shairport/dacp.h": "bebf85c6ca9cdf76fff4b8eaa4f8853a72cefff858683001056b3ace614b421f",
+    "src/shairport/activity_monitor.h": "823fd82edf8bdd1b2995628ae0805572bedaa737bf3d9597116474b778076d32",
+    "src/shairport/audio_coreaudio.c": "766afb294d7ddd6033daa234ebf59b1669aecdc91752bbdd0ae6cbcc11656dc1",
+    "src/shairport/audio_alsa.c": "aaa50e78e1a15135f1603869132f205faba9ab7045807be87a9bef0cc0519be9",
+    "src/shairport/common.h": "66ef34c7bc1a5c4612786b4c8860da6769ae5e1d146800ccb3a5f5537b1eaa3e",
+    "src/shairport/mqtt.h": "d897c4ace095f8d5558d71657ab6b5baf66e07321844ad75cb913d89c6a22043",
+    "src/shairport/LICENSES": "5ffb12379c3293e48010d0ed04185940e107b54e48b520d58d847da53a153c33",
+    "src/shairport/ptp-utilities.h": "87b174ef5601af9aa8a419ca904da8b7e0535b75a805449506ee6c7a9b5be861",
+    "src/shairport/ap2_buffered_audio_processor.h": "e7c36edc7becd7d6d7341d6d58c60bcbf0836d42cb839b06e9d3316ce516f89e",
+    "src/shairport/player.c": "e2906c66e614d362afdf675485a6fc38466828488b7a7552daceb297d61dd811",
+    "src/shairport/mqtt.c": "7804af720ead2eeaa2fbbc5b819b90221b70c54862ab5ad6b79b14ea93d78fc4",
+    "src/shairport/bonjour_strings.h": "4d1025632f26e4263076a90309c4c6b29c25f1db88ee2f84232c8e6260f86a74",
+    "src/shairport/bonjour_strings.c": "9d079c2df769f7bc90d7d9f0e654ed6b54d49c9ff4ee3d310795f2e683e627d1",
+    "src/shairport/audio.h": "a0b37b626acc296ccdf1122f47f134408ae28cb6d11152acbd4a951d59cda28e",
+    "src/shairport/loudness.h": "2a24e5105b5a537e0115f18d2c8e307c4f5dbb528b69bd5f072733ca30361991",
+    "src/shairport/rtsp_lifecycle.inc": "0716c1bc2469f320edd2f340d9549bd8429a1fd5d175c4a4c7c5b0578013b746",
+    "src/shairport/ptp-utilities.c": "f961c6c7e4402aee701e9643353ac1e3b10cf0a90735e77d7ecfd8c54505713d",
+    "src/shairport/mdns_tinysvcmdns.c": "b7ffa6421792a65009117507ab4df8d71a140740f120aacb89f2de0512924d50",
+    "src/shairport/rtsp.c": "59f11eb4138f247e17e15fcfdaea06d73bf2e43bda4b0a12d3f549505c139ecb",
+    "src/shairport/mdns_external.c": "921293667ffa9f9e6c7c62081e146d978c043d8c4fd113b308f56f5122198466",
+    "src/shairport/mdns.h": "2f35a10f651baacbb2a58323d9b1e893a044e6aa233ace276bc976bbe76698da",
+    "src/shairport/definitions.h": "c4b83dda810c8cf4da44fec4e464a97aa31aa9f729810ea9d010fbb75c032f48",
+    "src/shairport/ap2_event_receiver.c": "61374cc84131cda231b84701eb0acf64ba2a5123ce1616b97eee57a96bbcdbbe",
+    "src/shairport/player.h": "dde3513ed3db8b4b2d487bf1f0408c10a6c335e793c8e00718389fe8d5b7c78f",
+    "src/shairport/alac.c": "89972c377e6e09d54446ce8e205c6dc413ec5553013e790c9ec35002bc79effe",
+    "src/shairport/COPYING": "6034449acaf0ffd70e2506283cf6db93c1101904d8a5be19be0be3521cbc169b",
+    "src/shairport/shairport.c": "761000f0087d47f9988f87c729b5190626c9befebde496788c7b14292195322b",
+    "src/shairport/shairport-sync-mpris-test-client.c": "b1494891e75e564dc9dad5888f633ff1516382215692b1e23208fa5c887b8c1a",
+    "src/shairport/rtsp.h": "401198edf55e837517ba84237fbe4c4b80f05f30a572ecaf84a435ccf360dca5",
+    "src/shairport/mdns.c": "74f97a24b99ac564e850d5288bd440c5e405896552ddcddd7d6a3ae6e151fe40",
+    "src/shairport/mdns_avahi.c": "2daed3e606b8278b88a53748818f3f1bc36c600df6ebfa86d6accdca33704984",
+    "src/shairport/audio.c": "6414605b4b478d35713730ed2f2aa3a51bc09a09f62027a044bea98f4725bedc",
+    "src/shairport/audio_stdout.c": "82f00400ba87e4645aaa8ccad19d3a611bdd47c67a0259646400ff9325d6f6b6",
+    "src/shairport/audio_dummy.c": "a60dae4c83ba0b81550a962c5dbddcaad803b914dce5fe82e94c26616ea6dd46",
+    "src/shairport/audio_pipe.c": "27d5ce1a40923c559b2dcc058b5fc74c24b56d25c1babb0b2644c9c461ad4fa1",
+    "src/shairport/common.c": "6690af7f84f1a05478afacb389d90247e3e308b3c744205781329df058ceb454",
+    "src/shairport/audio_sndio.c": "00de249102efe096d1143c09df99ba253f6bed4722a7fc0e7aac374d6e75184f",
+    "src/shairport/ap2_buffered_audio_processor.c": "82d63d3611e4e507b244a2d7e00646cc8a57eb3beacbc5e5c4a858c3cac8f891",
+    "src/shairport/ap2_event_receiver.h": "b8ba94f44a021513418584a01656731b61c4838e01a27acc1cb9e6e9c3233027",
+    "src/shairport/dacp.c": "dbed56ccfa9c290adce1ba97dfbd32a5143280bac1dbbe0bcaa5dbd4948c393e",
+    "src/shairport/audio_ao.c": "b7b84c4b35c526781b52e263dcec99742776da3d9f7fecc19dd4507c1cdf3b32",
+    "src/shairport/tinysvcmdns.c": "ae311bf040f0a8380273371cbd9fac66bd283e8fc2a14be019defe88ee1a2262",
+    "src/shairport/shairport-sync-dbus-test-client.c": "628145bc81155431b90152cb5719365a0d260f36415763a5cf59407d2b58eceb",
+    "src/compat/ya-uuid.c": "76642282b8a29665e07c63546389f758c25619ab39f6edffc22c898326d2b476",
+    "src/compat/ya-shm.h": "d03618b9f0bb3972baddeda2960fe0bee92c41b27952a5a9eaf487cfd376a198",
+    "src/compat/ya-shm.c": "ab9497e4148edf9e8fdd214f904481180abd286d92863b87ca8800e4c4fce3ae",
+    "src/compat/ya-stop.c": "93c77d8cc4b9915505e4df4e2aec5b620b22f7d2069d89980214eb567a96a8b1",
+    "src/compat/ya-stop.h": "dbc3c0bafc7d61af26401477985b9b27a3008fb6982fc9a426597b2058924af3",
+    "src/compat/ya-plist-compat.h": "c0bc5709a338ce8d354cd199351c8adf2346cf84d578694b41849a088a151ee0",
+    "src/config/config.h": "4e5ed1d943abfe08850d0eca93fbd73e5313d0eac462ae7d1065c90a1656420e",
+    "src/nqptp/Makefile.am": "e4f0e92d3a7ac1eda85f0b207c785a66a0da54f5ca6213576f8f94441c7363dc",
+    "src/nqptp/nqptp-clock-sources.c": "cc686747ffaf6c44f585cee655ddf25a7dd9f6c47fb3c6ea1784d80bc1d6ad80",
+    "src/nqptp/nqptp-shm-structures.h": "56aa36359755183c1e53b1401a507026b6d57f61477728825f8393b0877e4f9b",
+    "src/nqptp/config.h": "eb402665aa7d13580cf92bacce9c455b59ea4e636ea9ecef7285cf4ebd3f14e4",
+    "src/nqptp/nqptp-ptp-definitions.h": "ba0c3dc0b2627e4237496db49c5ce9881b65e1c68bf9d236a0c972454deb51e0",
+    "src/nqptp/nqptp.c": "024d993ff9b57c76fe8ce53a7def04f7d3de79bcf86ea3750cb6c151398573a1",
+    "src/nqptp/general-utilities.h": "dc815c72da2ced03b3df445bed93b1340f8461086b353379f8b7a85bcf035209",
+    "src/nqptp/general-utilities.c": "502675cbae1d2c470f584a2879948bd8b9307db4bd1f893fdb5da5eae4a09313",
+    "src/nqptp/nqptp-message-handlers.h": "96643218747c1dc3cd9e9c1fdb9a6e5df77d17a9df981d9af427ac7e92fbc599",
+    "src/nqptp/LICENSE": "8177f97513213526df2cf6184d8ff986c675afb514d4e68a404010521b880643",
+    "src/nqptp/debug.h": "a1cfe6098bef0a9baa793aedc36a7c925686da707869880973304fa32ed6ab7b",
+    "src/nqptp/nqptp-utilities.c": "7f106062b701ebd9706dc9a9e8f7480e0848049ab59b29071a2a6328e2b8d8c1",
+    "src/nqptp/nqptp-clock-sources.h": "273e0bc711bf8ac5c0b564bbe71314742aa108146c9cc62d0277ca4424b523c8",
+    "src/nqptp/debug.c": "e095f271df100745bbf24a55b9d7eccd2ccb34abb9608d46584746d8141b07ca",
+    "src/nqptp/COPYING": "148d1322a064ccf40daa78703c797ca11d056f84056a058efbf2071785f40b3a",
+    "src/nqptp/nqptp-message-handlers.c": "ccdddd002eebb90444a2decbf17fcbfafd4bf561b17c02a98617298b46ddc162",
+    "src/nqptp/nqptp.h": "552fc3ad5546b076b7763dca217b0d5bd67bdeff45467a13b2d4d6c5ede3e08f",
+    "src/nqptp/nqptp-utilities.h": "c1e37c9959d7d285abba8964aed6218865dc82398f04fedf063f7ec5df010405",
+    "src/runtime/audio_aaudio.c": "a62f53de1a5a21f04360c8f960f8b9b3bf73f5bfae0d0b4dbb6e5363d49b9d08",
+    "src/runtime/boot-state.c": "a0f4f449d4ffda545a0ff7bfc1a7fdfa7023a292719d21c424df1a310f0e70fc",
+    "src/runtime/remote-cli.c": "39342bf72bc3fc64781450a41e16406fd9d7c9e2776c40b8e42db09a81e44107",
+    "src/runtime/voice.c": "8f35e3e92f0e55fec6c816f078c0ecf0efef5790912f303e3ba630c3f44592e3",
+    "src/runtime/remote-protocol.h": "56ef0b4a5d32a2e0d168c5236fc7dd072901786ff201355d79d0b22d17887bdd",
+    "src/runtime/publish.c": "c7098cfda7413e24a36c9757b798c0dbfd7a064e04e6ca01ee94a87e1b11c66e",
+    "src/runtime/remote-io.h": "8c77923b66241209b7ec84e4562155ff1058d7e782f410c35b1325861ad9504b",
+    "src/runtime/supervisor.c": "9154fe9366fcc8168ea5424dcb838c90f67dca4ea192037f40bb7de0b5c333e7",
+    "src/shairport/pair_ap/pair_homekit.c": "7b5e284f99fde6b7f228a5503cde9b51e10c5a92422086992b4d578cee7deaa8",
+    "src/shairport/pair_ap/server-example.c": "76a353e90b52a24e206a2cce67004f9b6942ba3d4b9011e706c562de885dbd14",
+    "src/shairport/pair_ap/pair-internal.h": "bd7ad344d0294cd81fd2b7f43848b6280d971b63af49f7d38a7e4a4b0dcbe8e8",
+    "src/shairport/pair_ap/pair_fruit.c": "886bec9dc4a8592e9cae1a3db4af7721bc7de8d1376da961a67d4091abe2f9d7",
+    "src/shairport/pair_ap/pair-tlv.c": "48864bedbae8bf295378317b60570d91ae2eb3bb1d9b10f977faf6032df0b72c",
+    "src/shairport/pair_ap/client-example.c": "cbed6bd3d030bcdab15917569b0f0c7007de7c749c7a6274cfd3404e0d419783",
+    "src/shairport/pair_ap/pair.c": "217d6ff05340cca4cf089cda535a94c0d2373b6a3ce45c412df6ca853b69e791",
+    "src/shairport/pair_ap/pair.h": "01d93b23fd10f53e934e6b89ffa3164d52763bce0ce09ab182034795bda04a01",
+    "src/shairport/pair_ap/pair-tlv.h": "7b73e8832ae535ef6a30e9ca9bfae622f97f59fd948337844419aa5233e746aa",
+    "src/shairport/metadata/hub.c": "9837e2306ff603d0ea8332aa128874093a8bef619f9c11c7c585adc2db6936d3",
+    "src/shairport/metadata/pipe.h": "49490f3495780e1cfe8c334058da62dd56343841a97c745a14dae703f5ae8038",
+    "src/shairport/metadata/audio_bitrate.h": "c0ec75121dc519a6adb019181b2cb7897ae6e3effe75d946ebf0bb680383ecf9",
+    "src/shairport/metadata/multicast.h": "0f03c29f251657fbb2effbb9e520abf5a71be301eadae53a67a0f0c5de3099c7",
+    "src/shairport/metadata/pipe.c": "adc33743360fbcb1540c0bcd009030f8c3eadc63ab73321995a577fa12f253ed",
+    "src/shairport/metadata/audio_bitrate_structs.h": "e79af1907bc46c95abe359e5905cb5c99e9878f93f452b405b84e0c493addb1b",
+    "src/shairport/metadata/core.c": "778d7c156e26eaa3438ed589d98a3f7b5b7454e93521af19ba687407992c7a8d",
+    "src/shairport/metadata/hub.h": "9fb2b2a39515806462e68972cb6eb30b1c9d0069f6316f7b0b1fd6e198e1e477",
+    "src/shairport/metadata/metadata_hub_handle_command_plist.c": "92d1e05eb5d6faa8cadbdb8cee34a1a84fdbfa38f7f83864f36b87adbd6805a0",
+    "src/shairport/metadata/pc_queue.c": "f874a96b724eb626b34233cfc2eaebd40d17ef49adb318ff7627023204b1255c",
+    "src/shairport/metadata/metadata_hub_handle_command_plist.h": "eed6cd42519e368737ec2d76816c20be3c29ebbeba48ec10c68b531427fc6e6f",
+    "src/shairport/metadata/audio_bitrate.c": "8b9b4018a1fcd4f475117458865bc826386e3c398c82788ccf0ff5b5418eac94",
+    "src/shairport/metadata/multicast.c": "298676c9bc36b8725d916139b325b8569fb386705c060f3c1bf4de4c975ac52a",
+    "src/shairport/metadata/core.h": "c83b24b7cf19fcf7b6c558a76dfb3bc4bff6cd8a3ffc4ae6aa7fc0c1d27bab60",
+    "src/shairport/metadata/pc_queue.h": "ba611e21ab7c08c795684d15c133e9d6c7582886bd8989589f9d6b0ea4ff2b98",
+    "src/shairport/tests/test_audio_bitrate.c": "5468a2bd2e460c3be5b42c7d4e5186dd8ee923336df43b381218178d5508ec7f",
+    "src/shairport/tests/test_metadata_queue.c": "65f270c26a2fb443403a2774ebe76d198e32728ef23d18c98fc60451ba8fce72",
+    "src/shairport/man/Makefile.am": "763bbd85508b01437bfbab802726ada371ed84e85d4ca2dcd70436c4cb61bbb9",
+    "src/shairport/FFTConvolver/convolver.h": "11b9e807ad1baac46b27f4b75c5b9f063aa2dc5b9a9a24444292d426d4691f95",
+    "src/shairport/FFTConvolver/ConvolverThreadPool.h": "266ee6c68859b83dfe089b53fcfad57e5cc5bd42d569dda7286b39db62c70ba5",
+    "src/shairport/FFTConvolver/FFTConvolver.h": "13b68221d3c500f67efa31c4ecf749f86a84080525686fcfed9d4e024d219bb2",
+    "src/shairport/FFTConvolver/AudioFFT.h": "2e0bc3a05930778d05c6c95c7b12965657558c24c62dee873bda8b65a8d41a12",
+    "src/shairport/FFTConvolver/Utilities.h": "57844fac872ae1a564b1e6e8f878d1438813226e87a7b1fded21d31b403537bd",
+    "src/shairport/tinyhttp/header.h": "0710bf34a21811ff53537d8e7aa5c9797e6c71fc4f20144d8a8c2ab2cab4369a",
+    "src/shairport/tinyhttp/http.h": "9d4d15fe50c33d65c8ec20189ff8bd4a55538a0733d6c7d0ee483aa7a54c683d",
+    "src/shairport/tinyhttp/chunk.c": "5483212750cb0b5bfafa6064fc3b3765ee266397183714efc2e121d9be29e376",
+    "src/shairport/tinyhttp/chunk.h": "e04b743b2024dba1700bebec7f396035eca48459e970eca65989435937fb5e9e",
+    "src/shairport/tinyhttp/header.c": "cb3a4f7328ad0c170cf0e65ff0e372d99f0949fc98de339cb6e301be64f0eaaf",
+    "src/shairport/tinyhttp/http.c": "ab547245f5b39ea709c0bc50718a018d073cfefb0ae4ba9274208c2021128e7c",
+    "src/shairport/dbus/mpris-service.h": "a498aec1842f77eca6cff2f2ec812e1b089d4c881ae41c3159bd02c50676bb5b",
+    "src/shairport/dbus/dbus-service.c": "e767cd43fa77c63c2def109d819eee3351837a5279341edf9afc4330f43c1fe3",
+    "src/shairport/dbus/mpris-service.c": "91d2b5c8df6ed687046032355e7e9605a346bcaab96220af45165f46deecba39",
+    "src/shairport/dbus/dbus-service.h": "311fd7cbbae8929854282dcb766f02c3926503c955b60ce45b1186d77d741e5e",
+    "src/shairport/utilities/network_utilities.h": "d3770758e866fbdcf56e0fef873b14f1118b2615e5c6985a512773bf21bc1310",
+    "src/shairport/utilities/string_utilities.c": "4b32815a08024ecd39af68f59a143d3ac3b11325b99edf9eb7bfb9b4cbeb7722",
+    "src/shairport/utilities/rtsp_message_utilities.c": "8b3712e245adfb3b1906512073e6eb1d645f99e7b5f27c518b644ef3c7e34cbc",
+    "src/shairport/utilities/rtsp_message_utilities.h": "3e0ca72d94abf0671cfe08202bd1047fe1a939022a141ce1a4ebcbb4cffb1437",
+    "src/shairport/utilities/generate_random_uuid.c": "a722105a4bb3b6dc89e349836b3531743988f6d446edb46b5a3c58856906891c",
+    "src/shairport/utilities/buffered_read.c": "01fa4d2e9e24abfcdcf3739441b180a37e21f2d3353696bbaa485d4a1d8607cb",
+    "src/shairport/utilities/mod23.h": "d9ce7003738ec4956c98c094c43ac5ddb735d3f43f6f473515feea20997f4bd5",
+    "src/shairport/utilities/buffered_read.h": "a38f466c0d5f050a996400d4dfaf52b921bf52d06431b460a6780671d413165a",
+    "src/shairport/utilities/generate_random_uuid.h": "01048c3809aa1d0b3b1131f56ac78d7ab888304cab3d67075181a3d957171544",
+    "src/shairport/utilities/generate_device_uuid.h": "e38e3a6d62471d7713c6cc70d91056dcb26fe5c05d4202637a5d39d749fa4ee5",
+    "src/shairport/utilities/general_utilities.h": "d10e962db9c302dbf0ab06ff166416852cb66c9d34f2b106fb098a4618852609",
+    "src/shairport/utilities/ir_file_support.c": "ede357235f7f00da2ce0eac7b79cb161ce3fb5aaa76a3bc107e17b67fa381dc9",
+    "src/shairport/utilities/ir_file_support.h": "5ef33de4172cbe9022e4974eb589f528630eee99012c2a65ad6c1dc205e8b660",
+    "src/shairport/utilities/plist_gvariant_stuff.c": "3e7d89d1aa495c9b5e70dc432527c6b83540ea48cb65ce6376793661fe89487e",
+    "src/shairport/utilities/debug.h": "36292b7c22e09de1dec80950def7b0f82c1faf7e7b22125ddbe8ebb3e42cd4d2",
+    "src/shairport/utilities/structured_buffer.h": "778a468ebbbd82ad75781af9bcbde359bf749a287d8262084388106889efefa9",
+    "src/shairport/utilities/generate_device_uuid.c": "a244637b4a185f652c320825a2d6519026427de8c522b8101cf87e06c02706ba",
+    "src/shairport/utilities/general_utilities.c": "b53a91cf38f2e384c0baceeebbade590f2146a87e95f3f7478aa2fe35da3b1fb",
+    "src/shairport/utilities/string_utilities.h": "8f577b26bd457b807e14ef70bb8749717a4fc1151e5cb1960c37fc2e054d9c0c",
+    "src/shairport/utilities/exit.h": "0ce4c3a2591af5b42aaa90a4c27854c48435dea65a4043b5b5eb051bee94911a",
+    "src/shairport/utilities/g_variant_pretty_print.c": "538f69973dc248d4b35831180edad1a60710acd75775ca7d07f6934730d8e205",
+    "src/shairport/utilities/g_variant_pretty_print.h": "8695ebf568b60c9da392d7515d3f19f1042489e2efbf8b9d233aabc3eb63f435",
+    "src/shairport/utilities/mod23.c": "7845d7f278d71c3f4b2a8aa71160d6bfe9d18bb1dd01dbf8b4bdc700d17c440b",
+    "src/shairport/utilities/debug.c": "bd650263e1a3ea82ba7c8f036abb9bfd986b1745efb73889927d889b12860205",
+    "src/shairport/utilities/structured_buffer.c": "3b2b61b2594c0025303bfdc5eafe06e083769ffcb67f0acd448175f5d6a391b5",
+    "src/shairport/utilities/network_utilities.c": "f20b5b17e9a8ffd8c82946079e2723a7b7493daa7704653874b1554035c92c4a",
+    "src/shairport/utilities/exit.c": "b6997536fde84265c97ec7b52c45dbbd08f96c653aaf412bc99bdea1e17a6997",
+    "src/shairport/utilities/plist_gvariant_stuff.h": "7d1b4d22383d0290f1e7a15492480fb1deddf6dc669af9f53523187fe7d43c69",
+    "src/shairport/remote/remote.c": "e37f6924fb28f62cfbeb2a58669b300b05cfcb2f90c6e80de50c24afb32d6adc",
+    "src/shairport/remote/remote.h": "0fbc9199e1b619e31fa9416324b587534992db2ed79d87bed0620cfd95ed6ede",
+    "src/shairport/pair_ap/evrtsp/log.h": "cc1781a5ec4618ce0bf8c6979c792302514c443c74b90d50c7b56aa1144c2e8f",
+    "src/shairport/pair_ap/evrtsp/rtsp-internal.h": "1daa835f4f86e6f5568799ced8691ba8c204b40b8b8971e52eb710477921fc86",
+    "src/shairport/pair_ap/evrtsp/rtsp.c": "255984716d34d29d14c0944d162682eabeec625a21ff71d0f0c81acffacae9d9",
+    "src/shairport/pair_ap/evrtsp/evrtsp.h": "d2bda48bd064f5e51bb9265011acc1b840357f84c8cc16279906c3aba92132c8",
+    "src/shairport/dbus/property-preflight/property-preflight.c": "8c2c3c1506a1f84209936052caacadf359c9f5ada16c5111602500386caf82fa",
+    "src/shairport/dbus/property-preflight/property-preflight-shairportsync.c": "bc509ed569c0a48a4f6cac9d36c3a4d3b623e8ab72895f32d8ddae076d7249da",
+    "src/shairport/dbus/property-preflight/property-preflight-shairportsync.h": "4f6dcc855f0a92167ca955391f4aab1034b8903ceca3f1657bf16b624305c205",
+    "src/shairport/dbus/property-preflight/property-preflight-mpris.c": "550e444c646dcab5660dce6173116c6ad7a2f1b81445ba1a7e70ff0a808379cd",
+    "src/shairport/dbus/property-preflight/property-preflight.h": "adc2659997514d65352c70b390524c77b9d2e6b186c150abaa9f1a59af1b2c34",
+    "src/shairport/dbus/property-preflight/property-preflight-mpris.h": "5df16785dccbc490dfd95cfe784e99d5a91e21741702c60650f998fae95c3e74",
+    "src/compat/uuid/uuid.h": "cc15d91012db5c5314593ac9cbf8a44fe95bfdaec0957e2e367c5f708a31e8f7",
+    "src/config/plists/get_info_response.c": "d51869d4fdbc18a7b8d9299844f05c8fc4cc65262f63b469cb6eda9e6ea1a6a9",
+    "src/config/plists/get_info_response.h": "14339271025e42aae1199f3e792d4a53a7b7cd5aece8fc39ca86cfd8547866a3",
+    "src/runtime/receiver/remote-variant.h": "abbd81a25975e974301d1709ce35f56f14dbe8b4d834014cb41eb5c989fcde49",
+    "src/runtime/receiver/remote-test.h": "534e9918f18699780e8773fce9a8dbfd1969b006429f93a4f9d9ca71a0973ac1",
+    "src/runtime/receiver/log-limit.c": "0c30b3a621a80288fc5c6b7090acca791157f6612f368a20a86ff1047ec0301f",
+    "src/runtime/receiver/volume.h": "0f319fc49e64808446e0679f78bf878163ccb7b679991919358f44370b96510a",
+    "src/runtime/receiver/ya-thread.h": "bfcf7befc018c14bf89e4bd61f7a567eced6aadf588cc7a3bf300b5cb0666ccf",
+    "src/runtime/receiver/log-limit.h": "6292615496b11916247bb8d955055a51c23e6de76027f3c6ed701b3d2db6be3c",
+    "src/runtime/receiver/volume-state.h": "4e9dbb23aef5f6d61ecac8e46874bb4e6d5ad27f8516b74fb414e1f9e91a9ec7",
+    "src/runtime/receiver/listener-health.h": "b62d06a8b9ffc1f328c9b54285fca24c23661eb98134f856c79d318145dc3da8",
+    "src/runtime/receiver/remote-protocol.h": "56ef0b4a5d32a2e0d168c5236fc7dd072901786ff201355d79d0b22d17887bdd",
+    "src/runtime/receiver/remote-io.h": "8c77923b66241209b7ec84e4562155ff1058d7e782f410c35b1325861ad9504b",
+    "src/runtime/receiver/session-rate.h": "0f1cbf8525fa1290ebd756989a1c12aaeb72419d9188e18ac1ef4550408ec09e",
+    "src/runtime/diagnostics/diag-audio.c": "64a281ba0db19e3c81901a3b9606e624c6ef84dcabb7ccbf8fe446278f832db4",
+    "src/runtime/diagnostics/diag-audio.h": "a8792e6e5302ee518cad3830a623cedef62dd57770ca120a00952a8937743be7",
+    "src/runtime/base/._ya-stop.h": "29700d43452436a55ed0896c55be93155e5cd5e2a43776c00ca2f58e72791689",
+    "src/runtime/base/._ya-thread.h": "29700d43452436a55ed0896c55be93155e5cd5e2a43776c00ca2f58e72791689",
+    "src/runtime/base/config.h": "5a65ccb91091ee9f3f5a5f0d1271f484aec0022940249f8e61be730401673956",
+    "src/runtime/base/ya-thread.h": "5273d3823837becdde330478c1cbd4c3a3637b9802ae452c0859dfe3cbfd4bbd",
+    "src/runtime/base/mdns_android_nsd.c": "39c9f50274dc08a2e4a3f79e3216bedad2d314969efb7d77ed0a52c79b9eeb3d",
+    "src/runtime/base/ya-stop.c": "93c77d8cc4b9915505e4df4e2aec5b620b22f7d2069d89980214eb567a96a8b1",
+    "src/runtime/base/ya-stop.h": "dbc3c0bafc7d61af26401477985b9b27a3008fb6982fc9a426597b2058924af3",
+    "src/runtime/remote/remote-variant.h": "abbd81a25975e974301d1709ce35f56f14dbe8b4d834014cb41eb5c989fcde49",
+    "src/runtime/remote/remote-test.h": "534e9918f18699780e8773fce9a8dbfd1969b006429f93a4f9d9ca71a0973ac1",
+    "src/runtime/remote/volume.h": "0f319fc49e64808446e0679f78bf878163ccb7b679991919358f44370b96510a",
+    "src/runtime/remote/ya-thread.h": "bfcf7befc018c14bf89e4bd61f7a567eced6aadf588cc7a3bf300b5cb0666ccf",
+    "src/runtime/remote/remote-test.c": "f12437ce2f2c33807c80395178c5cfb54a7355bac218db46cd5fadcb27c06687",
+    "src/runtime/remote/volume-state.h": "4e9dbb23aef5f6d61ecac8e46874bb4e6d5ad27f8516b74fb414e1f9e91a9ec7",
+    "src/runtime/remote/remote-protocol.h": "56ef0b4a5d32a2e0d168c5236fc7dd072901786ff201355d79d0b22d17887bdd",
+    "src/runtime/remote/remote-io.h": "8c77923b66241209b7ec84e4562155ff1058d7e782f410c35b1325861ad9504b",
+    "src/runtime/volume-base/volume.h": "743b44c7dd3860c8105bae019d4bd9159b01c793c81cc02f5d59d714512463a4",
+    "src/runtime/volume-base/ya-thread.h": "bfcf7befc018c14bf89e4bd61f7a567eced6aadf588cc7a3bf300b5cb0666ccf",
+    "src/runtime/volume-base/ya-thread.c": "b3afdfc34c8efda4913b248c5033e57d922a1fbeaacdd4ba5078d6b8f952c37b",
+    "src/runtime/volume-base/volume-sps.c": "4212fe1ceb3533dc5dc65a1d9668f3de6be7bbbab16495365e6e95f60bf67c0e",
+    "src/runtime/volume-base/volume-state.h": "8e40da7bf263c6af79537816b0c595de7b7c0aa305ed794f247ebdf85524ecf8",
+    "src/runtime/volume/volume.h": "0f319fc49e64808446e0679f78bf878163ccb7b679991919358f44370b96510a",
+    "src/runtime/volume/ya-thread.h": "bfcf7befc018c14bf89e4bd61f7a567eced6aadf588cc7a3bf300b5cb0666ccf",
+    "src/runtime/volume/volume-client.c": "5d6e501b824a86d4c54af2f469cb8a967dcfc4630daac496b09e2fcbe29584dd",
+    "src/runtime/volume/volume-state.h": "4e9dbb23aef5f6d61ecac8e46874bb4e6d5ad27f8516b74fb414e1f9e91a9ec7",
+    "src/runtime/volume/volume-state.c": "89113d746b6a61cb636a392d2a22e4a8922ff4793ee75c98067b7821062b5530",
+    "src/runtime/remote-base/remote-test.h": "534e9918f18699780e8773fce9a8dbfd1969b006429f93a4f9d9ca71a0973ac1",
+    "src/runtime/remote-base/volume.h": "0f319fc49e64808446e0679f78bf878163ccb7b679991919358f44370b96510a",
+    "src/runtime/remote-base/ya-thread.h": "bfcf7befc018c14bf89e4bd61f7a567eced6aadf588cc7a3bf300b5cb0666ccf",
+    "src/runtime/remote-base/volume-state.h": "4e9dbb23aef5f6d61ecac8e46874bb4e6d5ad27f8516b74fb414e1f9e91a9ec7",
+    "src/runtime/remote-base/remote-protocol.h": "56ef0b4a5d32a2e0d168c5236fc7dd072901786ff201355d79d0b22d17887bdd",
+    "src/runtime/remote-base/remote-io.h": "8c77923b66241209b7ec84e4562155ff1058d7e782f410c35b1325861ad9504b"
+  },
+  "steps": [
+    {
+      "step": "unit-0",
+      "exit": 0
+    },
+    {
+      "step": "unit-1",
+      "exit": 0
+    },
+    {
+      "step": "unit-2",
+      "exit": 0
+    },
+    {
+      "step": "unit-3",
+      "exit": 0
+    },
+    {
+      "step": "unit-4",
+      "exit": 0
+    },
+    {
+      "step": "unit-5",
+      "exit": 0
+    },
+    {
+      "step": "unit-6",
+      "exit": 0
+    },
+    {
+      "step": "unit-7",
+      "exit": 0
+    },
+    {
+      "step": "unit-8",
+      "exit": 0
+    },
+    {
+      "step": "unit-9",
+      "exit": 0
+    },
+    {
+      "step": "unit-10",
+      "exit": 0
+    },
+    {
+      "step": "unit-11",
+      "exit": 0
+    },
+    {
+      "step": "unit-12",
+      "exit": 0
+    },
+    {
+      "step": "unit-13",
+      "exit": 0
+    },
+    {
+      "step": "unit-14",
+      "exit": 0
+    },
+    {
+      "step": "unit-15",
+      "exit": 0
+    },
+    {
+      "step": "unit-16",
+      "exit": 0
+    },
+    {
+      "step": "unit-17",
+      "exit": 0
+    },
+    {
+      "step": "unit-18",
+      "exit": 0
+    },
+    {
+      "step": "unit-19",
+      "exit": 0
+    },
+    {
+      "step": "unit-20",
+      "exit": 0
+    },
+    {
+      "step": "unit-21",
+      "exit": 0
+    },
+    {
+      "step": "unit-22",
+      "exit": 0
+    },
+    {
+      "step": "unit-23",
+      "exit": 0
+    },
+    {
+      "step": "unit-24",
+      "exit": 0
+    },
+    {
+      "step": "unit-25",
+      "exit": 0
+    },
+    {
+      "step": "unit-26",
+      "exit": 0
+    },
+    {
+      "step": "unit-27",
+      "exit": 0
+    },
+    {
+      "step": "unit-28",
+      "exit": 0
+    },
+    {
+      "step": "unit-29",
+      "exit": 0
+    },
+    {
+      "step": "unit-30",
+      "exit": 0
+    },
+    {
+      "step": "unit-31",
+      "exit": 0
+    },
+    {
+      "step": "unit-32",
+      "exit": 0
+    },
+    {
+      "step": "unit-33",
+      "exit": 0
+    },
+    {
+      "step": "unit-34",
+      "exit": 0
+    },
+    {
+      "step": "unit-35",
+      "exit": 0
+    },
+    {
+      "step": "unit-36",
+      "exit": 0
+    },
+    {
+      "step": "unit-37",
+      "exit": 0
+    },
+    {
+      "step": "unit-38",
+      "exit": 0
+    },
+    {
+      "step": "unit-39",
+      "exit": 0
+    },
+    {
+      "step": "unit-40",
+      "exit": 0
+    },
+    {
+      "step": "unit-41",
+      "exit": 0
+    },
+    {
+      "step": "receiver-link",
+      "exit": 0
+    },
+    {
+      "step": "supervisor",
+      "exit": 0
+    },
+    {
+      "step": "voice",
+      "exit": 0
+    },
+    {
+      "step": "publish",
+      "exit": 0
+    },
+    {
+      "step": "boot-state",
+      "exit": 0
+    },
+    {
+      "step": "remote-cli",
+      "exit": 0
+    },
+    {
+      "step": "nq-unit-0",
+      "exit": 0
+    },
+    {
+      "step": "nq-unit-1",
+      "exit": 0
+    },
+    {
+      "step": "nq-unit-2",
+      "exit": 0
+    },
+    {
+      "step": "nq-unit-3",
+      "exit": 0
+    },
+    {
+      "step": "nq-unit-4",
+      "exit": 0
+    },
+    {
+      "step": "nq-unit-5",
+      "exit": 0
+    },
+    {
+      "step": "nq-unit-6",
+      "exit": 0
+    },
+    {
+      "step": "nqptp",
+      "exit": 0
+    },
+    {
+      "step": "strip-ya-voice",
+      "exit": 0
+    },
+    {
+      "step": "elf-ya-voice",
+      "exit": 0
+    },
+    {
+      "step": "imports-ya-voice",
+      "exit": 0
+    },
+    {
+      "step": "strip-ya-boot-state",
+      "exit": 0
+    },
+    {
+      "step": "elf-ya-boot-state",
+      "exit": 0
+    },
+    {
+      "step": "imports-ya-boot-state",
+      "exit": 0
+    },
+    {
+      "step": "strip-ya-supervisor",
+      "exit": 0
+    },
+    {
+      "step": "elf-ya-supervisor",
+      "exit": 0
+    },
+    {
+      "step": "imports-ya-supervisor",
+      "exit": 0
+    },
+    {
+      "step": "strip-ya-remote",
+      "exit": 0
+    },
+    {
+      "step": "elf-ya-remote",
+      "exit": 0
+    },
+    {
+      "step": "imports-ya-remote",
+      "exit": 0
+    },
+    {
+      "step": "strip-ya-publish",
+      "exit": 0
+    },
+    {
+      "step": "elf-ya-publish",
+      "exit": 0
+    },
+    {
+      "step": "imports-ya-publish",
+      "exit": 0
+    },
+    {
+      "step": "strip-ya-shairport",
+      "exit": 0
+    },
+    {
+      "step": "elf-ya-shairport",
+      "exit": 0
+    },
+    {
+      "step": "imports-ya-shairport",
+      "exit": 0
+    },
+    {
+      "step": "strip-ya-nqptp",
+      "exit": 0
+    },
+    {
+      "step": "elf-ya-nqptp",
+      "exit": 0
+    },
+    {
+      "step": "imports-ya-nqptp",
+      "exit": 0
+    }
+  ]
+}

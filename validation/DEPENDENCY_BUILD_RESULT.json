@@ -1,0 +1,90 @@
+{
+  "pass": true,
+  "source_archive_sha256": "694bc2a2feababbd7c457725c8cfaae71518537d3cdc897b6529526364e3c26f",
+  "steps": [
+    {
+      "step": "libgpg-error-verified-cache",
+      "exit": 0
+    },
+    {
+      "step": "libgcrypt-verified-cache",
+      "exit": 0
+    },
+    {
+      "step": "popt-verified-cache",
+      "exit": 0
+    },
+    {
+      "step": "libplist-autoreconf",
+      "exit": 0
+    },
+    {
+      "step": "libplist-configure",
+      "exit": 0
+    },
+    {
+      "step": "libplist-make",
+      "exit": 0
+    },
+    {
+      "step": "libplist-install",
+      "exit": 0
+    },
+    {
+      "step": "libconfig-autoreconf",
+      "exit": 0
+    },
+    {
+      "step": "libconfig-configure",
+      "exit": 0
+    },
+    {
+      "step": "libconfig-make",
+      "exit": 0
+    },
+    {
+      "step": "libconfig-install",
+      "exit": 0
+    },
+    {
+      "step": "libsodium-autoreconf",
+      "exit": 0
+    },
+    {
+      "step": "libsodium-configure",
+      "exit": 0
+    },
+    {
+      "step": "libsodium-make",
+      "exit": 0
+    },
+    {
+      "step": "libsodium-install",
+      "exit": 0
+    },
+    {
+      "step": "openssl-configure",
+      "exit": 0
+    },
+    {
+      "step": "openssl-make",
+      "exit": 0
+    },
+    {
+      "step": "openssl-install",
+      "exit": 0
+    },
+    {
+      "step": "ffmpeg-configure",
+      "exit": 0
+    },
+    {
+      "step": "ffmpeg-make",
+      "exit": 0
+    },
+    {
+      "step": "ffmpeg-install",
+      "exit": 0
+    }
+  ]
+}

@@ -1,0 +1,25 @@
+{
+  "third_party_sources": {
+    "file": "ya-airplay-0.1.0-rc.1-third-party-sources.tar.gz",
+    "sha256": "694bc2a2feababbd7c457725c8cfaae71518537d3cdc897b6529526364e3c26f",
+    "bytes": 82707639,
+    "source_files": {
+      "libgpg-error": 307,
+      "libgcrypt": 627,
+      "popt": 152,
+      "libplist": 288,
+      "libconfig": 265,
+      "libsodium": 714,
+      "openssl": 5838,
+      "ffmpeg": 8568
+    }
+  },
+  "relink_kit": {
+    "file": "ya-airplay-0.1.0-rc.1-relink-kit.tar.gz",
+    "sha256": "b951805b30d85b482e337d587f102437abc73db8a094a6a0b058d9d7a694dae8",
+    "bytes": 7752984
+  },
+  "licenses_review": "Actual linked FFmpeg config LGPL2.1+ with CONFIG_GPL=0 CONFIG_NONFREE=0 CONFIG_VERSION3=0; source licenses retained",
+  "personal_key_material_included": false,
+  "upstream_openssl_test_keys": "Public upstream test fixtures, not personal/deploy/signing keys"
+}

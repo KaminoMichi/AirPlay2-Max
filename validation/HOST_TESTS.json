@@ -1,0 +1,98 @@
+{
+  "pass": true,
+  "platform": "Ubuntu private fixtures; no device actions",
+  "cases": [
+    {
+      "case": "compatible properties",
+      "pass": true
+    },
+    {
+      "case": "reject incompatible ro.product.device",
+      "pass": true
+    },
+    {
+      "case": "reject incompatible ro.build.version.incremental",
+      "pass": true
+    },
+    {
+      "case": "reject incompatible ro.build.version.sdk",
+      "pass": true
+    },
+    {
+      "case": "reject incompatible ro.product.cpu.abi",
+      "pass": true
+    },
+    {
+      "case": "reject incompatible ro.build.fingerprint",
+      "pass": true
+    },
+    {
+      "case": "reject incompatible selinux",
+      "pass": true
+    },
+    {
+      "case": "reject insufficient free space",
+      "pass": true
+    },
+    {
+      "case": "boot first initialization",
+      "pass": true
+    },
+    {
+      "case": "same boot preserves active state",
+      "pass": true
+    },
+    {
+      "case": "live supervisor lock blocks cold reset",
+      "pass": true
+    },
+    {
+      "case": "cold reset rejects symlink before unlink",
+      "pass": true
+    },
+    {
+      "case": "cold reset rejects hardlink",
+      "pass": true
+    },
+    {
+      "case": "cold boot resets only known stale objects",
+      "pass": true
+    },
+    {
+      "case": "invalid boot identity refuses reset",
+      "pass": true
+    },
+    {
+      "case": "atomic single-link publication",
+      "pass": true
+    },
+    {
+      "case": "existing request never overwritten",
+      "pass": true
+    },
+    {
+      "case": "publisher rejects symlink",
+      "pass": true
+    },
+    {
+      "case": "log retention normal",
+      "pass": true
+    },
+    {
+      "case": "log retention hidden",
+      "pass": true
+    },
+    {
+      "case": "log retention symlink",
+      "pass": true
+    },
+    {
+      "case": "log retention hardlink",
+      "pass": true
+    },
+    {
+      "case": "all device shell syntax",
+      "pass": true
+    }
+  ]
+}

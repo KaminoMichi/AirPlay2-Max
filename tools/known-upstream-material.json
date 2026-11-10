@@ -1,0 +1,10 @@
+{
+  "materials": [
+    {
+      "path": "src/shairport/common.c",
+      "material": "Public unchanged upstream AirTunes protocol block",
+      "sha256": "3579edb9f6355a45890ccbab1348e787c107404ef93fe36ab5f55b8cdb0405dc",
+      "upstream": "https://raw.githubusercontent.com/mikebrady/shairport-sync/0a34fbda83724cc06266aadcf7c88acc8fef4e7d/common.c"
+    }
+  ]
+}

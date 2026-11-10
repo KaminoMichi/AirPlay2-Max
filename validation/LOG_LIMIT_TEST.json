@@ -1,0 +1,6 @@
+{
+  "pass": true,
+  "platform": "Ubuntu ASan/UBSan child process only",
+  "max_bytes_per_log": 8388608,
+  "sigxfsz_ignored": true
+}

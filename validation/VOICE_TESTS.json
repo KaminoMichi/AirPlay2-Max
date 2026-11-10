@@ -1,0 +1,49 @@
+{
+  "pass": true,
+  "platform": "Ubuntu ASan/UBSan/TSan own process/IPC fixtures",
+  "checks": [
+    {
+      "case": "asan-ubsan-compile",
+      "exit": 0
+    },
+    {
+      "case": "asan-ubsan-run",
+      "exit": 0
+    },
+    {
+      "case": "lifecycle-build",
+      "exit": 0
+    },
+    {
+      "case": "tsan-compile",
+      "exit": 0
+    },
+    {
+      "case": "tsan-run",
+      "exit": 0
+    }
+  ],
+  "lifecycle": [
+    {
+      "case": "repeat_reconnect",
+      "active_removed": true
+    },
+    {
+      "case": "cancel_before_event",
+      "active_removed": true
+    },
+    {
+      "case": "stop_file_before_event",
+      "active_removed": true
+    },
+    {
+      "case": "source_restart",
+      "active_removed": true
+    },
+    {
+      "case": "source_restart_after_event",
+      "active_removed": true
+    }
+  ],
+  "android_runtime": "NOT_TESTED new packaging"
+}

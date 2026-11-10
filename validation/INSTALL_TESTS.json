@@ -1,0 +1,66 @@
+{
+  "pass": true,
+  "platform": "Ubuntu private filesystem and pm/service doubles; not Android",
+  "cases": [
+    {
+      "case": "fresh",
+      "exit": 0,
+      "pass": true
+    },
+    {
+      "case": "same_version",
+      "exit": 0,
+      "pass": true
+    },
+    {
+      "case": "foreign_root",
+      "exit": 65,
+      "pass": true
+    },
+    {
+      "case": "foreign_apk",
+      "exit": 65,
+      "pass": true
+    },
+    {
+      "case": "incompatible",
+      "exit": 65,
+      "pass": true
+    },
+    {
+      "case": "other_receiver",
+      "exit": 75,
+      "pass": true
+    },
+    {
+      "case": "upgrade",
+      "exit": 0,
+      "pass": true
+    },
+    {
+      "case": "rollback",
+      "exit": 0,
+      "pass": true
+    },
+    {
+      "case": "start_failure",
+      "exit": 1,
+      "pass": true
+    },
+    {
+      "case": "uninstall",
+      "exit": 0,
+      "pass": true
+    },
+    {
+      "case": "unsupported_boot",
+      "exit": 69,
+      "pass": true
+    },
+    {
+      "case": "foreign_hook",
+      "exit": 65,
+      "pass": true
+    }
+  ]
+}

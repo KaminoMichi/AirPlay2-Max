@@ -1,0 +1,14 @@
+[
+  "ffmpeg-install/lib/libavcodec.a",
+  "ffmpeg-install/lib/libavformat.a",
+  "ffmpeg-install/lib/libswresample.a",
+  "ffmpeg-install/lib/libavutil.a",
+  "libplist-install/lib/libplist-2.0.a",
+  "libconfig-install/lib/libconfig.a",
+  "libsodium-install/lib/libsodium.a",
+  "openssl-install/lib/libssl.a",
+  "openssl-install/lib/libcrypto.a",
+  "popt-install/lib/libpopt.a",
+  "libgcrypt-install/lib/libgcrypt.a",
+  "libgpg-error-install/lib/libgpg-error.a"
+]

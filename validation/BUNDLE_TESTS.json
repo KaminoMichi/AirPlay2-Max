@@ -1,0 +1,46 @@
+{
+  "pass": true,
+  "platform": "Private archive fixtures; no ADB",
+  "cases": [
+    {
+      "case": "valid",
+      "pass": true
+    },
+    {
+      "case": "absolute",
+      "pass": true
+    },
+    {
+      "case": "traversal",
+      "pass": true
+    },
+    {
+      "case": "symlink",
+      "pass": true
+    },
+    {
+      "case": "duplicate",
+      "pass": true
+    },
+    {
+      "case": "bad_checksum",
+      "pass": true
+    },
+    {
+      "case": "bad_publisher",
+      "pass": true
+    },
+    {
+      "case": "noncanonical",
+      "pass": true
+    },
+    {
+      "case": "unknown_member",
+      "pass": true
+    },
+    {
+      "case": "duplicate root result refused",
+      "pass": true
+    }
+  ]
+}
